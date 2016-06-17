@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	height: 100%;
+	padding: 0px;
+	background: #CB0000;
+	font-family: Arial, Verdana;
+
+}
+
+h1{
+	color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+
+.titulo_principal{
+	background: #B00A0A;
+	/*position: relative;*/
+}
+
+.menu_navegacion{
+	text-align: center;
+}
+
+.menu_navegacion ul{
+	margin: 10px;
+	padding: 10px;
+}
+
+.menu_navegacion li{
+	display: inline;
+	/* Aguas con en donde se ponen las cosas
+	este background sería diferente
+	si fuera solo sobre el link */
+	background: white;
+
+}
+
+.menu_navegacion a{
+	margin: 30px;
+	padding: 10px;
+	text-decoration: none;
+	color: red;
+	
+}
+
+/*El hover significa cuando te posicionas*/
+.menu_navegacion li.active a,
+.menu_navegacion li:hover a{
+	background: #FFC7C7
+}
+
+.info_personal{
+	margin-top: 50px;
+	margin: 20px;
+	border-bottom: 3px solid grey;
+	text-align: center;
+
+}
+
+.taxi{
+	color: #FB0076;
+}
+
+.contorno{
+	/*Con 50% es circulo perfecto */
+	border-radius: 20%;
+}
+
+.info_gral_bio , .info_estudios, .info_trabajo {
+	background: grey;
+	text-align: center;
+}
+
+.info_bio{
+	font-style: italic;
+
+}
+
+.terminacion {
+	color: #FFFDFD;
+	text-align: right;
+}
+
+a{
+	color: white;
+}

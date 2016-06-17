@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Verdana;
+  background: #f1f1f1;
+}
+h1{
+  color: #fff;
+  background-color: #000;
+}
+
+.trabajo , .escuelas{
+	text-align: center;
+	color: blue;
+}
+
+.celebracion {
+	text-align: right;
+	font-size: x-large;
+	background-color: grey;
+	color: #fff;
+}
+
+.home{
+	text-align: left;
+}
+
+.contacto{
+	text-align: center;
+}
+
+.menu {
+	text-align: center;
+}
+
+h3{
+	color: yellow;
+	background-color: grey;
+	text-align: left;
+}
+
+a{
+	color: green;
+}

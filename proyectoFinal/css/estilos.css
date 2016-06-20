@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	height: 100%;
+	padding: 0px;
+	background: white;
+	font-family: Arial, Verdana;
+
+}
+
+h1{
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.encabezado{
+	margin: 0;
+	margin-top: 15px;
+	padding: 40px;
+	background: #BBDED8;
+}
+
+.encabezado h2{
+	text-align: center;
+
+}
+
+
+h2{
+	margin: 0;
+}
+
+h3{
+	margin: 0;
+}
+
+h4{
+	margin: 0;
+}
+
+
+.menu_navegacion{
+	width: 100%;
+	text-align: center;
+	/*position:fixed; */
+	background-color: #FEDCDC;
+}
+
+.menu_navegacion ul{
+	margin: 10px;
+	padding: 10px;
+}
+
+.menu_navegacion li{
+	display: inline;
+	/* Aguas con en donde se ponen las cosas
+	este background sería diferente
+	si fuera solo sobre el link */
+	background: #B37441;
+
+}
+
+.menu_navegacion a{
+	margin: 30px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 15pt;
+	color: #3ACB33;
+	
+}
+
+/*El hover significa cuando te posicionas*/
+.menu_navegacion li.active a,
+.menu_navegacion li:hover a{
+	background: #BBDED8;
+}
+
+.img_banner {
+	width: 80%;
+	margin: 0px;
+}
+
+.h2_paquetes{
+	margin-left: 40px;
+	text-align: left;
+	color: #75E985
+}
+
+.h2_postres{
+	margin-left: 40px;
+	text-align: left;
+	color: #F988D2
+}
+
+
+.paquetes{
+	
+	background: #75E985;
+	margin: 10px;
+	padding: 10px;
+	padding-top: none;
+}
+
+.postres{
+	
+	background: #F988D2;
+	margin: 10px;
+	padding: 10px;
+	padding-top: none;
+}
+
+.paquetes img , .postres img{
+	display: inline;
+	width: 32.5%;
+}
+
+.legal {
+	margin: 0;
+	padding: 3px;
+	background: grey;
+}
+
+.legal h3 , h4{
+	text-align: right;
+	color: white;
+}
+
+.paquete1 , .paquete2 , .paquete3{
+	background: #75E985;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+.postre_1 img , .postre_2 img , .postre_3 img , .postre_4 img ,
+.paquete1 img , .paquete2 img , .paquete3 img {
+	width: 48%
+}
+
+.postre_1 h3 , .postre_2 h3 , .postre_3 h3 , .postre_4 h3 ,
+.paquete1 h3 , .paquete2 h3 , .paquete3 h3{
+	width: 48%
+}
+
+.postre_1 , .postre_2 , .postre_3 , .postre_4 ,{
+	background: #F988D2;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
